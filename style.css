@@ -1,10 +1,11 @@
 
 .container{
-    width:80%;
+    width:90%;
     margin:0 auto;
     text-align: center;
     background-color: rgba(73, 92, 44, 0.952);
 }
+
 
 .flex-blackjack-row-1,.flex-blackjack-row-2,.flex-blackjack-row-3{
     display: flex;
@@ -19,12 +20,19 @@
 #your-box, #dealer-box{
     border: 1px solid black;
     width: 50%;
+    flex-wrap: wrap;
 }
 
 .flex-blackjack-row-1 div{
     padding: 10px;
     text-align: center;
     height: 330px;
+    flex-wrap: wrap;
+}
+
+.flex-blackjack-row-1 div img{
+    padding: 10px;
+    height: 160px;
 }
 
 table, th,td{
@@ -34,3 +42,4 @@ table, th,td{
     padding-bottom: 3px;
     border: 1px solid black;
 }
+
