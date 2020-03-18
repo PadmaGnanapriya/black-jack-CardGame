@@ -10,7 +10,7 @@ document.querySelector('#blackjack-hit-button').addEventListener('click',blackja
 
 function blackjackHit(){
     let cardImage=document.createElement('img');
-    cardImage.src='Q.png';
+    cardImage.src='images/A.png';
     document.querySelector(YOU['div']).appendChild(cardImage);
-    alert('Ouch, you just clicked me!');
-}
+    //alert('Ouch, you just clicked me!');
+} 

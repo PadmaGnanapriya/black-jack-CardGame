@@ -1,7 +1,9 @@
+
 .container{
     width:80%;
     margin:0 auto;
     text-align: center;
+    background-color: rgba(73, 92, 44, 0.952);
 }
 
 .flex-blackjack-row-1,.flex-blackjack-row-2,.flex-blackjack-row-3{
@@ -11,6 +13,12 @@
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
+    background-color: olivedrab;
+}
+
+#your-box, #dealer-box{
+    border: 1px solid black;
+    width: 50%;
 }
 
 .flex-blackjack-row-1 div{
